@@ -1,0 +1,196 @@
+/****** Global Styles ******/
+body {
+    font-family: 'source sans 3', sans-serif;
+    color: #5E5D5E;
+  }
+  
+  /* Don't use the body block to set max width or center content blocks. The width will 
+  keep the background color from taking up the entire width of the window. Instead, 
+  you’ll add the width to a code block for the "content-wrapper". This will be in your 
+  global styles, just under the body code block. In the same code block, you’ll add 
+  margin: 0 auto; to center your site and overflow: auto; so that each content wrapper 
+  adjusts vertically to accommodate the nested content.*/
+  
+  .content-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+  }
+  
+  /****** Header Styles ******/
+  .homepage-hero {
+    background: url('../img/full-background.png') no-repeat #F9EFEF;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+  }
+  
+  header h1 {
+    float: left;
+    width: 300px;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: #7B7E54;
+    padding: 65px 0 65px 25px;
+  }
+  
+  header nav {
+    width: 800px;
+    float: right;
+    padding: 75px 25px 75px 0;
+    text-align: right;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    /* SC solution has this listed under nav ul li a */
+    padding-left: 80px;
+    /* SC solution has this listed under nav ul li a */
+    font-size: 18px;
+    /* SC solution has this listed under nav ul li a */
+  
+  }
+  
+  nav ul li a {
+    color: #727172;
+    text-decoration: none;
+  }
+  
+  header h2 {
+    color: #817F80;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 80px;
+    padding: 20px 0 20px 25px;
+    width: 1000px;
+    clear: both;
+  }
+  
+  /****** About Styles ******/
+  #about .content-wrapper {
+    padding: 80px 0;
+  }
+  
+  #about h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    padding-left: 50px;
+  }
+  
+  #about p {
+    float: left;
+    width: 500px;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 0 50px;
+  }
+  
+  /****** Skill Styles ******/
+  #skills {
+    text-align: center;
+    background: #F5F5F5;
+    /* if bkg is applied to content-wrapper it wouldn't extend past 1200px*/
+  }
+  
+  #skills .content-wrapper {
+    padding: 115px 0;
+  }
+  
+  #skills .skill-list {
+    float: left;
+    width: 300px;
+    padding: 0 50px;
+  }
+  
+  #skills h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    padding-bottom: 40px;
+  }
+  
+  #skills h3 {
+    font-size: 24px;
+    line-height: 36px;
+    margin: 30px 0 20px 0;
+  }
+  
+  #skills p {
+    font-size: 20px;
+    line-height: 40px;
+    text-align: left;
+  }
+  
+  /****** Contact Styles ******/
+  #contact {
+    background: #F9E9E9;
+  }
+  
+  #contact .content-wrapper {
+    padding: 110px 0;
+  }
+  
+  #contact .contact-image {
+    float: left;
+    width: 600px;
+  }
+  
+  #contact-img {
+    width: 500px;
+    border: 10px solid #F5F5F5;
+    margin: 0 50px;
+    box-sizing: border-box;
+  }
+  
+  #contact .contact-info {
+    float: left;
+    padding-left: 100px;
+    width: 600px;
+    box-sizing: border-box;
+  }
+  
+  #contact .contact-info h2 {
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-size: 36px;
+    margin: 30px 0;
+  }
+  
+  #contact .contact-info h3 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+  }
+  
+  #contact #email-h3 {
+    margin-bottom: 5px;
+  }
+  
+  #contact #social-media-h3 {
+    margin: 20px 0 5px 0;
+  }
+  
+  #contact .contact-info a {
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+    color: #5E5D5E;
+  }
+  
+  #contact #envelope {
+    padding-right: 10px;
+  }
+  
+  #contact ul {
+    margin: 0;
+    padding: 0;
+    /* list-style: none;  - the inline block display clears the list styling */
+  }
+  
+  #contact ul li {
+    display: inline-block;
+  }
+  
+  #contact ul img {
+    padding-right: 40px;
+  }
